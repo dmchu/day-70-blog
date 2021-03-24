@@ -15,7 +15,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.getenv("APP_CONFIG_KEY")
+key = os.getenv('APP_CONFIG_KEY')
+app.config['SECRET_KEY'] = key
+
 ckeditor = CKEditor(app)
 Bootstrap(app)
 gravatar = Gravatar(app, size=100, rating='g', default='retro', force_default=False, force_lower=False, use_ssl=False, base_url=None)
