@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95e509e9-174e-4150-85b2-430a603b27d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616557409562</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create 'DATABASE_URL' env variable">
+      <created>1616641934208</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616641934208</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +148,7 @@
     <MESSAGE value="minor cleanup" />
     <MESSAGE value="update requirements.txt" />
     <MESSAGE value="create procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="create procfile" />
+    <MESSAGE value="create 'DATABASE_URL' env variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 'DATABASE_URL' env variable" />
   </component>
 </project>
